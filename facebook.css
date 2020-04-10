@@ -25,11 +25,10 @@ Thằng vọc css (Author): JAK Khoa */
 }
 */
  /*[[hideRightCol]]*/
-  
 :root {
---mainC1:  /*[[userMainC1]]*/;
---mainC2: /*[[userMainC2]]*/;
---mainC3:  /*[[userMainC3]]*/;
+--mainC1:  /*[[userMainC1]]*/; /*#0C2A5A*/
+--mainC2: /*[[userMainC2]]*/; /*#15499D*/
+--mainC3:  /*[[userMainC3]]*/; /*#0F3470*/
 }
 /* replace code from here till the end */
 :root {
