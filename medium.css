@@ -1,0 +1,30 @@
+@-moz-document domain("medium.com") {
+.q, .io {
+    filter: invert(1)!important;
+}
+.ap {
+    color: #26e272 !important;
+    filter: none !important;
+}
+.cd, .bz:hover {
+    font-family: medium-content-serif-font !important;
+    color: #25c56b !important;
+    filter: none !important;
+}
+.ft, .ci, .be,  .pp {
+    font-family: medium-content-serif-font !important;
+    color: #dbdbdb !important;
+}
+.c {
+    background-color: rgb(32, 32, 32)!important;
+}
+.by {
+    fill:  #dbdbdb !important;
+}
+.ep {
+    border-color: #25c56b !important;
+}
+.iz {
+    background-color: #313131 !important;
+}
+}
