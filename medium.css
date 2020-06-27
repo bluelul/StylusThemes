@@ -1,36 +1,42 @@
 @-moz-document domain("medium.com") {
-.q, .io, .km, svg:not(:root) {
-    filter: invert(1)!important;
-}
-.io, .km {
-    fill: rgb(255, 255, 255)!important;
+:root {
+    --accent: #25c56b;
+    --white: #c6c6c6;
 }
 .qz {
     fill: rgb(0, 0, 0)!important;
 }
-.cd, .bz:hover {
-    font-family: medium-content-serif-font !important;
-    color: #25c56b !important;
-    filter: none !important;
-}
-.pp {
-    color: #dbdbdb !important;
-}
 .ap {
-    color: #26e272 !important;
-    filter: none !important;
+    color: var(--white);
 }
-.ft, .ci, .be,   .rg {
+h1 {
+    color: var(--accent) !important;
     font-family: medium-content-serif-font !important;
-    color: #dbdbdb !important;
 }
-.c, .iz, .ky, .ja, .qx {
+p {
+    color: var(--white) !important;
+    font-family: medium-content-serif-font !important;
+}
+
+body {
+    color: var(--white) !important;
+    background: black!important;
+}
+
+button, .bz:hover {
+    color: var(--accent) !important;
+}
+
+.c, .iz, .ky, .ja, .qx, .il, .no, .qp {
     background-color: rgb(32, 32, 32)!important;
 }
 .ep {
-    border-color: #25c56b !important;
+    border-color: var(--accent) !important;
 }
 ::selection {
     background: rgba(38, 226, 114, .24) !important;
+}
+.q {
+    fill: rgb(116, 116, 116)!important;
 }
 }
