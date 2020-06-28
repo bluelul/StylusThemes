@@ -116,7 +116,7 @@ body, #hdtbSum, #appbar, .kappbar, a.rg_l, .frame:before, .ptJHdc, .ptJHdc .v7hl
     background-image: none!important; 
 }
 /*bg None*/
-.vdLsw span, .language_list_languages.tw-ll-top::after, .XD1Bsc, .XD1Bsc:hover, .ZXJQ7c:hover {
+.vdLsw span, .language_list_languages.tw-ll-top::after, .XD1Bsc, .XD1Bsc:hover, .ZXJQ7c:hover, .pR49Ae span {
     background:none!important;
 }
 .rg_anbg {
@@ -131,7 +131,7 @@ body, #hdtbSum, #appbar, .kappbar, a.rg_l, .frame:before, .ptJHdc, .ptJHdc .v7hl
 /*---------------------------------------------------*/
 
 /* text 0*/
-.irc-s .nJGrxf, .gb_B, .gsfi, .rg_an, .g3dbUc {
+.irc-s .nJGrxf, .gb_B, .rg_an, .g3dbUc {
     color: var(--whiteC0)!important;
 }
 /* text 1*/
