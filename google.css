@@ -90,7 +90,7 @@ body, #hdtbSum, #appbar, .kappbar, a.rg_l, .frame:before, .ptJHdc, .ptJHdc .v7hl
     background-color: var(--darkC4)!important; 
 }
 /*bg Transparent*/
-.gb_i:not(.gb_j):hover .gb_r, .onegoogle #gb, .gb_B, .sbib_a, .loading .loading-indicator, .section-info-action-icon-button:last-of-type, .rl_item_base, .L8zLFc, .m8d1Yd, .orgdxf, .IZ6wsd, .LqZphc span, .AtjbOc, .HT23Jf, .zbszBc, .dw-sb-cont, .gstl_51 .sbdd_b, .HIf9ae, input, .gb_J, .irc_t, .y-C, .F9PbJd, .ef2wWc, .W0m3G::before, .W0m3G .r4nke, .shdZ7e .mIZh1c, .WnqCuf, .XOE24:not(.W1ZWq) .gHlG4 .CIy9F:not(.Hcv3ye) .Aworge:hover, .DaQ2rc::before, .gb_i:hover, .gb_E, .gb_l .gb_tb, .gb_Ib, .DYMkgd, .kLhEKe, .section-footer, .pVFdhc {
+.gb_i:not(.gb_j):hover .gb_r, .onegoogle #gb, .gb_B, .sbib_a, .loading .loading-indicator, .section-info-action-icon-button:last-of-type, .rl_item_base, .L8zLFc, .m8d1Yd, .orgdxf, .IZ6wsd, .LqZphc span, .AtjbOc, .HT23Jf, .zbszBc, .dw-sb-cont, .gstl_51 .sbdd_b, .HIf9ae, input, .gb_J, .irc_t, .y-C, .F9PbJd, .ef2wWc, .W0m3G::before, .W0m3G .r4nke, .shdZ7e .mIZh1c, .WnqCuf, .XOE24:not(.W1ZWq) .gHlG4 .CIy9F:not(.Hcv3ye) .Aworge:hover, .DaQ2rc::before, .gb_i:hover, .gb_E, .gb_l .gb_tb, .gb_Ib, .DYMkgd, .kLhEKe, .section-footer, .pVFdhc, #hdtb {
     background-color: transparent!important; 
 }
 .ab_button, .y-C-ka:hover {
@@ -446,6 +446,7 @@ g-expandable-content {
 div[style="border-bottom:1px solid #EBEBEB"] {
     display:none!important;
 }
+
 }
 
 @-moz-document regexp("(https|http)://mail.google.*") {
@@ -486,4 +487,40 @@ div[style="border-bottom:1px solid #EBEBEB"] {
 .msgb {
     color: var(--whiteC4)!important;
 }
+}
+
+@-moz-document regexp("(https|http)://(www).google.*") {
+#top_nav, #fbar, div#searchform, #searchform, #appbar {
+    min-width: 0 !important;
+    width: 100% !important;
+}
+
+#extabar, .hdtb-mn-cont {
+     margin-left: -147px!important; 
+}
+
+g-scrolling-carousel {
+     position: static !important; 
+}
+.GNxIwf, .COEoid, .zZ86of {
+     position: relative !important; 
+}
+#hdtb-msb-vis {
+    margin-left: 30px!important;
+}
+#rcnt {
+    margin-left: -87px!important;
+    position: absolute!important;
+    left: 50%!important;
+    transform: translate(-50%, 0)!important;
+}
+#foot {
+    left: 50%;
+    transform: translateX(50%);
+    margin-left: -90px;
+}
+#footcnt {
+    display:none!important;
+}
+
 }
