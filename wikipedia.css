@@ -801,7 +801,7 @@ li.gallerybox div.thumb {
 .mwe-popups .mwe-popups-extract[dir='ltr']:after {
     background-image: linear-gradient(to right,rgba(255,255,255,0), #23272a 50%)!important;
 }
-.mwe-math-fallback-image-inline {
+.mwe-math-fallback-image-inline, .mwe-math-fallback-image-display {
     filter: invert(0.9) !important;   
 }
 ul {
