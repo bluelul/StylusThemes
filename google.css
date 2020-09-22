@@ -547,6 +547,12 @@ g-scrolling-carousel {
 .sfbg, div.sfbgg, .sfbgg{
     display:none!important;
 }
+.big #tsf {
+    width: auto!important;
+}
+#searchform.big.jhp>#tsf {
+    width: auto!important;
+}
 }
 
 @-moz-document regexp("(https|http)://(www).google.com.*/.*tbm=shop.*") {
