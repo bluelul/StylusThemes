@@ -329,7 +329,7 @@
     /* article */
     /* headlines */
     #firstHeading {
-        font-family: 'Source Serif Pro', sans-serif !important;
+        /*font-family: 'Source Serif Pro', sans-serif !important;*/
         font-size: 2.7em !important;
         margin-top: 40px !important;
         padding-bottom: 5px !important;
@@ -346,7 +346,7 @@
         margin-top: 40px !important;
         margin-bottom: 10px !important;
         font-weight: normal !important;
-        font-family: 'Source Serif Pro', sans-serif !important;
+        /*font-family: 'Source Serif Pro', sans-serif !important;*/
         text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
         color: #eee;
     }
