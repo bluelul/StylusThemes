@@ -1,6 +1,6 @@
 @-moz-document domain("mail.viettel.com.vn") {
 /* i really want this to be global */
-/*
+
 body{
     filter: blur(10px) !important;
     transition: 0.25s -webkit-filter linear !important;
@@ -8,7 +8,7 @@ body{
 body:hover {
     filter: none !important;
 }
-*/
+
 :root {
 --darkC0x: #101010;    
 --darkC0:  #171717;
