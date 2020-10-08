@@ -1,6 +1,6 @@
 @-moz-document domain("mail.viettel.com.vn") {
 /* i really want this to be global */
-
+/*
 body{
     filter: blur(10px) !important;
     transition: 0.25s -webkit-filter linear !important;
@@ -8,7 +8,7 @@ body{
 body:hover {
     filter: none !important;
 }
-
+*/
 :root {
 --darkC0x: #101010;    
 --darkC0:  #171717;
@@ -131,6 +131,9 @@ input[type="text"], input[type="password"] {
 }
 .form .ZLoginButton {
     box-shadow:none!important;
+}
+.ImgSearch2 {
+    background-position-y: -4401px!important;
 }
 .LoginScreen .Footer {
     transition: all 0.15s ease-in-out !important;
