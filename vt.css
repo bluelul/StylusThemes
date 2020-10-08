@@ -31,26 +31,26 @@ body:hover {
 --mainDark: #005559;
 }
 /* background */
-body, .ZmMailMsgView, .MsgBody, .DwtListView, .RowOdd, .LoginScreen, .DwtHorizontalSash, .DwtListView-Column, .ZmMailMsgView .MsgHeader, .ZmMailMsgView .MsgHeaderTable, .MessageHeaderAttachments, #skin_tr_toolbar>TD, #skin_container_tree, .overviewHeader TD, .overviewHeader-actioned TD, #skin_container_tree_footer, .ZmPrefView, .ZOptionsSectionMain, .ZmContactSplitView, .ZmContactView, .ZmEditContactView, .ZmContactInfoView, .ZmContactSimpleView, .ZmBriefcaseDetailListView, .ZmPreviewView, #skin_container_splash_screen, #skin_outer, .calendar_view, .ZmComposeView, .addrBubbleContainer, .attBubbleContainer, .ZmComposeView .subjectField, .defaultSkin table.mceLayout tr.mceFirst td {
+body, .ZmMailMsgView, .MsgBody, .DwtListView, .RowOdd, .LoginScreen, .DwtHorizontalSash, .DwtListView-Column, .ZmMailMsgView .MsgHeader, .ZmMailMsgView .MsgHeaderTable, .MessageHeaderAttachments, #skin_tr_toolbar>TD, #skin_container_tree, .overviewHeader TD, .overviewHeader-actioned TD, #skin_container_tree_footer, .ZmPrefView, .ZOptionsSectionMain, .ZmContactSplitView, .ZmContactView, .ZmEditContactView, .ZmContactInfoView, .ZmContactSimpleView, .ZmBriefcaseDetailListView, .ZmPreviewView, #skin_container_splash_screen, #skin_outer, .calendar_view, .ZmComposeView, .addrBubbleContainer, .attBubbleContainer, .ZmComposeView .subjectField, .defaultSkin table.mceLayout tr.mceFirst td, .VeilOverlay table, .WindowInnerContainer, .LightWindowOuterContainer, .LightWindowInnerContainer, .ZmApptComposeView, .LoginScreen .ZLoginInfoMessage {
     background-color: var(--darkC1)!important;
 }
-.DwtCalendarDay-selected, .DwtToolTip, .DwtMenu, .ActionMenu, .DwtSelectMenu, .ZmAutocompleteListView {
+.DwtCalendarDay-selected, .DwtToolTip, .DwtMenu, .ActionMenu, .DwtSelectMenu, .ZmAutocompleteListView, .shortcutKeys-prefs, .ZOptionsSectionTabView .ZTabBorder {
     background-color: var(--darkC4)!important;
 }
 .addrBubble:hover, .ZHover .ZMenuItemBorder, .acRow-selected {
     background-color: var(--darkC5)!important;
 }
-.RowOdd:hover, .RowEven:hover, .DwtTreeItem:hover, .DwtCalendarDay:hover, .DwtCalendarDay-hover {
+.RowOdd:hover, .RowEven:hover, .DwtTreeItem:hover, .DwtCalendarDay:hover, .DwtCalendarDay-hover, .shortcutDescription-prefs, .WindowOuterContainer {
     background-color: var(--darkC3)!important;
 }
 
-.Row-selected, .DwtTreeItem-selected, .DwtCalendarDay-today, .DwtButton-active, .addrBubble-selected {
+.Row-selected, .DwtTreeItem-selected, .DwtTreeItem-selected-focused, .DwtCalendarDay-today, .DwtButton-active, .addrBubble-selected, .shortcutListHeader-prefs, .ZOptionsSectionTabView .ZSelected .ZTabBorder {
     background-color: var(--mainDark)!important;
 }
-.Row-selected:hover, .DwtTreeItem-selected:hover, .ZToolbarButtonBorder:hover, .DwtButton-hover, .addrBubble-selected:hover  {
+.Row-selected:hover, .DwtTreeItem-selected:hover, .DwtTreeItem-selected-focused:hover, .ZToolbarButtonBorder:hover, .DwtButton-hover, .addrBubble-selected:hover  {
     background-color: var(--mainMid)!important;
 }
-.overviewHeader, .overviewHeader-actioned, .DwtTreeItemLevel1ChildDiv, .DwtCalendar, .DwtCalendarDow, #UnknownPersonSlide_Frame, .defaultSkin .mceListBox .mceText, .defaultSkin table.mceListBoxEnabled:hover .mceOpen, .defaultSkin .mceListBoxHover .mceOpen, .defaultSkin .mceListBoxSelected .mceOpen {
+.overviewHeader, .overviewHeader-actioned, .DwtTreeItemLevel1ChildDiv, .DwtCalendar, .DwtCalendarDow, #UnknownPersonSlide_Frame, .defaultSkin .mceListBox .mceText, .defaultSkin table.mceListBoxEnabled:hover .mceOpen, .defaultSkin .mceListBoxHover .mceOpen, .defaultSkin .mceListBoxSelected .mceOpen, .DwtChooserListView, #skin_container_search .ZButtonBorder, #zi_search_inputfield, .ZmSearchResultsToolBar, .ZmSearchResultsFilterPanel {
     background-color: transparent!important;
 }
 .ZSelected .ZAppTabBorder, .ZToolbarButtonBorder, .DwtButton, .DwtButton-active, .DwtButton-hover, .ZButtonBorder, .LoginScreen, .SplashScreen {
@@ -60,17 +60,20 @@ body, .ZmMailMsgView, .MsgBody, .DwtListView, .RowOdd, .LoginScreen, .DwtHorizon
 .ZSelected .ZAppTabBorder, .LoginScreen, .SplashScreen {
     background-color: var(--darkC1)!important;
 }
-.ZToolbarButtonBorder, .DwtButton, .ZButtonBorder, .addrBubble, .attachmentBubble {
+.ZToolbarButtonBorder, .DwtButton, .ZButtonBorder, .addrBubble, .attachmentBubble, input[type="text"], input[type="password"], .form SELECT {
     background-color: rgba(255,255,255,0.08)!important;
+}
+.form .ZLoginButton:hover, #skin_container_search .ZmSearchToolbar { 
+    background-color: rgba(255,255,255,0.2)!important;
 }
 /* text */
 .Row .ZmConvListFragment, .Conv2MsgHeader .ZmConvListFragment, .Row .Row-Selected .ZmConvListFragment, .SubjectDoubleRow .ZmConvListFragment {
     color: var(--whiteC0) !important;
 }
-.selected TD, .Row-selected TD, .Row-selected-dragProxy TD, .Row-selected-disabled TD, .Row TD, .RowDouble TD, .DwtListView-Column td, TD, .Text, .calendar_grid_body_time_text, .calendar_heading_day, .calendar_heading_day-selected, .calendar_heading_day_today, .calendar_heading_day_today-selected, .addrBubble, .addrBubble-selected, .addrBubble-actioned, .attachmentBubble, .DwtToolTipBody, .addrBubbleContainer INPUT, .attBubbleContainer INPUT, .ZmComposeView .subjectField {
+.selected TD, .Row-selected TD, .Row-selected-dragProxy TD, .Row-selected-disabled TD, .Row TD, .RowDouble TD, .DwtListView-Column td, TD, .Text, .calendar_grid_body_time_text, .calendar_heading_day, .calendar_heading_day-selected, .calendar_heading_day_today, .calendar_heading_day_today-selected, .addrBubble, .addrBubble-selected, .addrBubble-actioned, .attachmentBubble, .DwtToolTipBody, .addrBubbleContainer INPUT, .attBubbleContainer INPUT, .ZmComposeView .subjectField, input[type="text"], input[type="password"], .form .ZLoginButton, .form SELECT, .ZmSearchResultsFilterPanel .header, div  {
     color: var(--whiteC2) !important;
 }
-.DwtListView-Column td {
+.DwtListView-Column td, .LoginScreen .ZLoginInfoMessage {
     color: var(--whiteC3) !important;
 }
 .AttLink:hover, .Row-selected .AttLink:hover, .AttLink:link, .AttLink:visited, .MsgHeaderTable .Object, .DwtCalendarDow, .FakeAnchor:hover, a:link, a:visited, .ZmAutocompleteListView .LinkText {
@@ -83,7 +86,7 @@ LEGEND, .FakeAnchor, a:link, a:visited {
     text-decoration: none!important;
 }
 /* border */
-.RowDouble, .RowDouble>TABLE, .MessageHeaderAttachments, #skin_tr_toolbar>TD, .ZmMailMsgView, .DwtListView, .ZToolbarButtonBorder, .overviewHeader>TABLE, .overviewHeader-actioned>TABLE, #skin_container_tree, .ZSelected .ZAppTabBorder, #skin_container_tree_footer, .DwtCalendarDow, .DwtCalendarDay-hover, .DwtTreeItem-selected, .ZmPrefView, .DwtCalendarDay-today, .ZmContactSplitView, .ZmContactView, .ZmEditContactView, .ZmContactInfoView, .ZmContactSimpleView, .AlphabetBarTable .DwtButton, .AlphabetBarTable .DwtButton-hover, .AlphabetBarTable .DwtButton-active, .ZmBriefcaseDetailListView, .ZmPreviewView, .ZButtonBorder, .ZmMailMsgView .MsgHeader, .ZmMailMsgView .MsgHeaderTable, .addrBubble, .addrBubble-selected, .addrBubble-actioned, .attachmentBubble, .DwtToolTip, .horizSep, .DwtMenu, .ActionMenu, .DwtSelectMenu, .ZMenuItemBorder, .addrBubbleContainer, .attBubbleContainer, .ZmComposeView .subjectField, .defaultSkin table.mceLayout tr.mceFirst td, .defaultSkin table.mceLayout, .defaultSkin .mceIframeContainer, .defaultSkin .mceButton, .defaultSkin table.mceListBoxEnabled:hover .mceText, .defaultSkin .mceListBoxHover .mceText, .defaultSkin .mceListBoxSelected .mceText, .defaultSkin table.mceListBoxEnabled:hover .mceOpen, .defaultSkin .mceListBoxHover .mceOpen, .defaultSkin .mceListBoxSelected .mceOpen, .defaultSkin .mceListBox .mceOpen, .defaultSkin .mceListBox .mceText, .defaultSkin .mceSplitButton a.mceAction, .defaultSkin .mceSplitButton a.mceOpen, .ZmAutocompleteListView,  .ZmAutocompleteListView TD {
+.RowDouble, .RowDouble>TABLE, .MessageHeaderAttachments, #skin_tr_toolbar>TD, .ZmMailMsgView, .DwtListView, .ZToolbarButtonBorder, .overviewHeader>TABLE, .overviewHeader-actioned>TABLE, #skin_container_tree, .ZSelected .ZAppTabBorder, #skin_container_tree_footer, .DwtCalendarDow, .DwtCalendarDay-hover, .DwtTreeItem-selected, .ZmPrefView, .DwtCalendarDay-today, .ZmContactSplitView, .ZmContactView, .ZmEditContactView, .ZmContactInfoView, .ZmContactSimpleView, .AlphabetBarTable .DwtButton, .AlphabetBarTable .DwtButton-hover, .AlphabetBarTable .DwtButton-active, .ZmBriefcaseDetailListView, .ZmPreviewView, .ZButtonBorder, .ZmMailMsgView .MsgHeader, .ZmMailMsgView .MsgHeaderTable, .addrBubble, .addrBubble-selected, .addrBubble-actioned, .attachmentBubble, .DwtToolTip, .horizSep, .DwtMenu, .ActionMenu, .DwtSelectMenu, .ZMenuItemBorder, .addrBubbleContainer, .attBubbleContainer, .ZmComposeView .subjectField, .defaultSkin table.mceLayout tr.mceFirst td, .defaultSkin table.mceLayout, .defaultSkin .mceIframeContainer, .defaultSkin .mceButton, .defaultSkin table.mceListBoxEnabled:hover .mceText, .defaultSkin .mceListBoxHover .mceText, .defaultSkin .mceListBoxSelected .mceText, .defaultSkin table.mceListBoxEnabled:hover .mceOpen, .defaultSkin .mceListBoxHover .mceOpen, .defaultSkin .mceListBoxSelected .mceOpen, .defaultSkin .mceListBox .mceOpen, .defaultSkin .mceListBox .mceText, .defaultSkin .mceSplitButton a.mceAction, .defaultSkin .mceSplitButton a.mceOpen, .ZmAutocompleteListView,  .ZmAutocompleteListView TD, .shortcutListHeaderTd-prefs, .shortcutDescription-prefs, .shortcutKeys-prefs, .Row, .ZOptionsSectionTabView .ZSelected .ZTabBorder, .ZOptionsSectionTabView .ZTabBorder, .WindowOuterContainer, .WindowInnerContainer, input[type="text"], input[type="password"], .form .ZLoginButton, .form SELECT {
     border: transparent!important;
 }
 FIELDSET {
@@ -100,8 +103,13 @@ FIELDSET {
 #skin_spacing_tree {
     padding-bottom: 0px !important;
 }
-.ImgPrefsHeader_L {
-    width: 8px!important;
+.ImgPrefsHeader_L, .ImgPrefsHeader_R {
+    width: 0px!important;
+}
+.ZOptionsHeader {
+    padding: 4px 9px 6px 14px!important;
+    background: var(--mainMid)!important;
+    border-radius: 6px!important;
 }
 .MsgBody, .defaultSkin iframe {
     filter:invert(0.886) hue-rotate(150deg)!important;
@@ -109,14 +117,20 @@ FIELDSET {
 .defaultSkin .mceButton {
     filter:invert(0.9) hue-rotate(180deg)!important;
 }
-.DwtToolTip, .DwtMenu, .ActionMenu, .DwtSelectMenu, .ZmAutocompleteListView {
+.DwtToolTip, .DwtMenu, .ActionMenu, .DwtSelectMenu, .ZmAutocompleteListView, .WindowInnerContainer, .WindowOuterContainer {
     box-shadow: 5px 5px 15px var(--darkC2)!important;
 }
 .addrBubbleContainer, .ZmComposeView .subjectField {
     border-bottom: 1px dashed var(--mainMid)!important;
 }
-input.subjectField{
+input.subjectField, input[type="text"], input[type="password"] {
     outline-width:0px !important;
+}
+input[type="text"], input[type="password"] {
+    padding: 0px 10px !important;
+}
+.form .ZLoginButton {
+    box-shadow:none!important;
 }
 .LoginScreen .Footer {
     transition: all 0.15s ease-in-out !important;
