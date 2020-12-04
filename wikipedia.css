@@ -829,4 +829,12 @@ td[style] {
 #mw-head #searchform > div input#searchInput {
     color: #ccc!important;
 }
+
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+    background-image: none !important;
+}
+
+#asn-dismissable-notice {
+    background-color: transparent !important;
+}
 }
