@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name Medium uDark
+@namespace github.com/bluelul/Userstyle
+@homepageURL https://github.com/bluelul/Userstyle/blob/master/medium.user.css
+@version 1.0.0
+@updateURL https://github.com/bluelul/Userstyle/raw/master/medium.user.css
+@description Medium Dark Theme
+@author bluelul
+@license GNU-V3.0
+@preprocessor uso
+==/UserStyle== */
+
 @-moz-document domain("medium.com") {
 :root {
     --accent: #25c56b;
