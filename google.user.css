@@ -13,7 +13,7 @@
 @-moz-document regexp("(https|http)://(www|calendar|drive|photos|finance|policies|accounts|notifications|myaccount|translate|ogs).google.*") {
 /* i really want this to be global */
 :root {
---darkC0x: #101010;    
+--darkC0x: #101011;    
 --darkC0:  #171717;
 --darkC01: #191919;
 --darkC1:  #1d1d1d;
