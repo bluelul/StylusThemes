@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name Facebook uDark
+@namespace github.com/bluelul/Userstyle
+@homepageURL https://github.com/bluelul/Userstyle/blob/master/facebook.user.css
+@version 1.0.0
+@updateURL https://github.com/bluelul/Userstyle/raw/master/facebook.user.css
+@description Facebook Dark Theme
+@author bluelul
+@license GNU-V3.0
+@preprocessor uso
+==/UserStyle== */
+
 @-moz-document domain("facebook.com"), domain("messenger.com")
 {
 /* i really want this to be global */
