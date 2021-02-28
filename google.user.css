@@ -6,7 +6,7 @@
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
-@license MIT
+@license GNU-V3.0
 
 @-moz-document regexp("(https|http)://(www|calendar|drive|photos|finance|policies|accounts|notifications|myaccount|translate|ogs).google.*") {
 /* i really want this to be global */
