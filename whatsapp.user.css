@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name Whatsapp uDark
+@namespace github.com/bluelul/Userstyle
+@homepageURL https://github.com/bluelul/Userstyle/blob/master/whatsapp.user.css
+@version 1.0.0
+@updateURL https://github.com/bluelul/Userstyle/raw/master/whatsapp.user.css
+@description Whatsapp Dark Theme
+@author bluelul
+@license GNU-V3.0
+@preprocessor uso
+==/UserStyle== */
+
 @-moz-document domain("web.whatsapp.com") {
 :root:not(#z),
   .dark:not(#z) {
