@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
-@homepageURL https://github.com/bluelul/Userstyle/master/google.user.css
-@version 1.0.1
+@homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
+@version 1.0.2
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -13,7 +13,7 @@
 @-moz-document regexp("(https|http)://(www|calendar|drive|photos|finance|policies|accounts|notifications|myaccount|translate|ogs).google.*") {
 /* i really want this to be global */
 :root {
---darkC0x: #101011;    
+--darkC0x: #101010;    
 --darkC0:  #171717;
 --darkC01: #191919;
 --darkC1:  #1d1d1d;
