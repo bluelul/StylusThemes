@@ -518,23 +518,26 @@ div[style="border-bottom:1px solid #EBEBEB"] {
 --gradient1: linear-gradient(140deg, var(--mainC1) 10%, var(--mainC2) 75%);
 --gradient2: linear-gradient(140deg, var(--mainC2) 0%, var(--mainC3) 75%);
 }
-#loading {
+.la-b .la-l, .la-b .la-r, .la-b .la-m {
+    background: var(--darkC3);
+}
+.la-c.la-l {
+    background: #c5221f;
+}
+.la-c.la-r {
+    background: #fbbc04;
+}
+#loading, .la-k .la-m {
     background-color: var(--darkC1)!important; 
 }
 #nlpt {
     background-color: var(--darkC23)!important; 
 }
-.msgb {
-    color: var(--whiteC4)!important;
+.la-i>.la-l, .la-i>.la-r, .la-k .la-l, .la-k .la-r {
+    border-color: transparent!important; 
 }
-.la-m {
-    border-color: transparent!important;
-}
-.la-t, .la-s {
-     background-color: var(--darkC23);  
-}
-.la-i {
-/*      background-color: var(--darkC1)!important;   */
+.la-i div[style]:first-child, .la-i>.la-m {
+    background: var(--darkC23) !important;
 }
 }
 
