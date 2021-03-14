@@ -798,7 +798,7 @@ a.new, #p-personal a.new {
 li.gallerybox div.thumb {
  	border-color: transparent !important;   
 }
-.mwe-popups {
+.mwe-popups, .mwe-popups .mwe-popups-container {
 	background-color: #23272a !important;
 }
 .mwe-popups .mwe-popups-extract {
