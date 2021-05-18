@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.12
+@version 1.0.13
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -189,9 +189,10 @@ a:visited, #foot #navcnt .cur, .gb_E, .waypoint-address .first-line, #foot .AaVj
 #foot #navcnt a, a.fl, #tw-source-rmn.tw-data-text, .gb_5b, .section-area-weather-temperature, .section-hero-header-title-description-container, .section-hotel-carousel-hotel-class, .widget-pane-date-picker, .goog-date-picker-date, .gm2-display-2, .transit-stop-name, .OuAJHb, .y-C-Ed-V, .ebs3Ne.UflSff, .r9PaP, .GMjygd, .section-factual-edit-state, ._--, .vfxGNc, .uo4vr {
     color: var(--mainYellow)!important;
 }
-.nJGrxf.FnqxG {
+.nJGrxf.FnqxG, #gb a.gb_4.gb_4 {
     color: var(--whiteC1)!important;
 }
+
 .g3dbUc.UflSff, .i8dSE .r4nke, .Jmftzc.EiZ8Dd.UflSff {
     color: var(--darkC4)!important;
 }
