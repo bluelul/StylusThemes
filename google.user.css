@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.23
+@version 1.0.24
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -553,9 +553,18 @@
     .q1kEvb .related-question-pair.ygGdYd {
         margin: 0px !important;
     }
+    .kp-blk.c2xzTb .wDYxhc:first-child, .c2xzTb .tF2Cxc {
+        margin: 10px !important;
+    }
+    .kp-blk.c2xzTb .wDYxhc:first-child {
+        margin-bottom: 0px !important;
+    }
+    .c2xzTb .tF2Cxc {
+        margin-top: 0px !important;
+    }
     .e4xoPb, .tWJQl, #center_col .kp-blk, .qmv19b, .czHJJ, .uMdZh {
         border-radius: 10px !important;
-        overflow: hidden !important
+        overflow: hidden !important;
     }
     .aNytqb .e4xoPb {
         margin-bottom: 10px !important;
