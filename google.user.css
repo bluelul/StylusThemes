@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.29
+@version 1.0.30
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -392,7 +392,7 @@
     /*------------------------------------------------------------------*/
 
     /*filter invert*/
-    .daicon, .jfk-button-img, .language_list_item_wrapper.item-emphasized:not(.item-selected) .language_list_item_icon, .trans-verified-button, .vk-t-btn, .vk-cap.vk-sf-b, .gt-is-mobile .gt-is-ca, .file-holder-icon, .ita-kd-img, .searchbox-hamburger::before, .searchbox-searchbutton::before, .maps-sprite-suggest-place-pin, .maps-sprite-suggest-history, .maps-sprite-common-chevron-left, .maps-sprite-pane-info-arrowup, .uDxUUUCO4ji__next-icon, .uDxUUUCO4ji__prev-icon, .maps-sprite-pane-info-content-copy, .maps-sprite-pane-info-learn-more, .maps-sprite-pane-info-launch, .maps-sprite-pane-info-call-number, .hotel-amenity-icon, .section-popular-times-arrow-left, .section-popular-times-arrow-right, .section-popular-times-button, .section-review-star, .screen-mode .section-rating .section-star-empty, .section-star-empty, .section-review-interaction-icon, .maps-sprite-common-chevron-right, .section-attribute-group-item-icon, .ozj7Vb3wnYq__section-topappbar-backarrow, .section-directions-trip-travel-mode-icon, .section-directions-trip-renderable-summary .renderable-component-icon, .section-directions-trip-walking-duration-icon, .section-directions-details-action-button, .transit-step-description .renderable-component-icon, .directions-group-disclose, .transit-mode-body .text-waypoint-marker img, .maps-sprite-settings-chevron-left, .widget-settings-button-icon, .maps-sprite-settings-languages, .A9x0mb, .Lrszfb, .QeuQGc, .i8Msie, g-popularity-widget, .QU77pf, .gb_sc, .gb_tc, .gb_D.gb_xc, .highres .maps-sprite-saved-place-list-lock-sm, .highres .maps-sprite-your-places-remove, .highres .maps-sprite-common-more, .highres .section-header-close-button, #isr_chc g-left-button div, #isr_chc g-right-button div, .aXBZVd, .highres .pWhrzc-mylocation-LgbsSe .pWhrzc-mylocation-LgbsSe-icon, .highres .ujtHqf-zoom-LgbsSe .ujtHqf-zoom-icon, .highres .ojh76-KoToPc-LgbsSe-icon, .searchbox-icon, .KY3DLe-settings-LgbsSe-icon-default, .KY3DLe-settings-languages, .rdgqde-LJSvSb-FzV1B-Q8Kwad-qwU8Me, .LQjNnc-p83tee-JNdkSc-ibnC6b-icon, .y0skZc-jCCvxc-icon, .opbX2-icon, .VZjUy-LJSvSb-suggest-TIHSC, .rdgqde-LJSvSb-FzV1B-Q8Kwad-LK5yu, .GaSlwc-uhFGfc-WsjYwc-TvD9Pc-icon, .YsGUOb, .rISBZc.M4dUYb {
+    .daicon, .jfk-button-img, .language_list_item_wrapper.item-emphasized:not(.item-selected) .language_list_item_icon, .trans-verified-button, .vk-t-btn, .vk-cap.vk-sf-b, .gt-is-mobile .gt-is-ca, .file-holder-icon, .ita-kd-img, .searchbox-hamburger::before, .searchbox-searchbutton::before, .maps-sprite-suggest-place-pin, .maps-sprite-suggest-history, .maps-sprite-common-chevron-left, .maps-sprite-pane-info-arrowup, .uDxUUUCO4ji__next-icon, .uDxUUUCO4ji__prev-icon, .maps-sprite-pane-info-content-copy, .maps-sprite-pane-info-learn-more, .maps-sprite-pane-info-launch, .maps-sprite-pane-info-call-number, .hotel-amenity-icon, .section-popular-times-arrow-left, .section-popular-times-arrow-right, .section-popular-times-button, .section-review-star, .screen-mode .section-rating .section-star-empty, .section-star-empty, .section-review-interaction-icon, .maps-sprite-common-chevron-right, .section-attribute-group-item-icon, .ozj7Vb3wnYq__section-topappbar-backarrow, .section-directions-trip-travel-mode-icon, .section-directions-trip-renderable-summary .renderable-component-icon, .section-directions-trip-walking-duration-icon, .section-directions-details-action-button, .transit-step-description .renderable-component-icon, .directions-group-disclose, .transit-mode-body .text-waypoint-marker img, .maps-sprite-settings-chevron-left, .widget-settings-button-icon, .maps-sprite-settings-languages, .A9x0mb, .Lrszfb, .QeuQGc, .i8Msie, g-popularity-widget, .QU77pf, .gb_sc, .gb_tc, .gb_D.gb_xc, .highres .maps-sprite-saved-place-list-lock-sm, .highres .maps-sprite-your-places-remove, .highres .maps-sprite-common-more, .highres .section-header-close-button, #isr_chc g-left-button div, #isr_chc g-right-button div, .aXBZVd, .highres .pWhrzc-mylocation-LgbsSe .pWhrzc-mylocation-LgbsSe-icon, .highres .ujtHqf-zoom-LgbsSe .ujtHqf-zoom-icon, .highres .ojh76-KoToPc-LgbsSe-icon, .searchbox-icon, .KY3DLe-settings-LgbsSe-icon-default, .KY3DLe-settings-languages, .rdgqde-LJSvSb-FzV1B-Q8Kwad-qwU8Me, .LQjNnc-p83tee-JNdkSc-ibnC6b-icon, .y0skZc-jCCvxc-icon, .opbX2-icon, .VZjUy-LJSvSb-suggest-TIHSC, .rdgqde-LJSvSb-FzV1B-Q8Kwad-LK5yu, .GaSlwc-uhFGfc-WsjYwc-TvD9Pc-icon, .YsGUOb {
         filter: invert(1)!important;
     }
     /*filter google map search bar*/
@@ -452,7 +452,7 @@
     .Wt5Tfe, .kp-blk.ouUsKb.G45kvd {
         padding-top: 10px !important;
     }
-    .wjgLQd, .O3JH7.qLBFXd, .related-question-pair, .MBtdbb {
+    .wjgLQd, .O3JH7.qLBFXd, .related-question-pair, .MBtdbb, .c2xzTb .wDYxhc, .sI5x9c {
         padding-left: 10px !important;
     }
     .sfbg, .FtRlBe, .Wt5Tfe {
