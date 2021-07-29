@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.30
+@version 1.0.31
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -517,7 +517,7 @@
     .gLFyf {
         width: 0px !important;
     }
-    #searchform.big.jhp>#tsf, .J1hqV, .BA0A6c {
+    #searchform.big.jhp>#tsf, .J1hqV {
         width: 1139px!important;
     }
     
