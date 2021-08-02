@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.33
+@version 1.0.34
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -419,8 +419,8 @@
     }
     
     /*filter invert colorize*/
-    #lr_dct_img_use, #lr_dct_img_origin_vocabulary0, #lr_dct_img_origin_purify0, #lr_dct_img_origin_legend0 {
-        filter: invert(1) contrast(0.77) saturate(3) !important;
+    #lr_dct_img_use, img[id^="lr_dct_img_origin_"] {
+        filter: invert(0.875) hue-rotate(180deg) contrast(1.1) saturate(1.1) brightness(1.3)!important;
     }
     .l44Vof, .bQUiFc .zU3xpf, .SXZglb-layer-KbLeYb-mU4ghb-HiaYvf {
         filter: invert(0.85) hue-rotate(180deg) contrast(1.1) saturate(1.1) brightness(1.3)!important;
