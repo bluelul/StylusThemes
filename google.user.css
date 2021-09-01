@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.35
+@version 1.0.36
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -689,10 +689,13 @@
     margin-left: 90px!important;
 }
 
-#rcnt {
+/* #rcnt {
     margin-left: -87px!important;
+} */
+#result-stats {
+    margin-left: 87px!important;
 }
-
+    
 #foot {
     transform: translateX(-100px) translateX(-50%) translateX(50vw)!important;
 }
