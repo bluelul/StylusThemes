@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.37
+@version 1.0.38
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -118,7 +118,7 @@
         background-color: rgba(255,255,255,0.06)!important;
     }
     /*bg Blue*/
-    .gb_M div.gb_O, #isr_chc.OQc4Ib g-right-button, #isr_chc.OQc4Ib g-left-button, .ll0QOb, .vk-btn.vk-sf-s, .vk-btn.vk-sf-a, .vk-btn.vk-sf-a:hover, .homepage.translate-text .input-button.text-icon, .homepage.translate-docs .input-button.documents-icon, .iRxY3GoUYUY__button, .book-a-room-button:focus:not(:active), .book-a-room-button:hover:not(:active), .section-directions-trip-renderable-summary .renderable-component-text-box-white, .section-directions-trip-renderable-summary .renderable-component-text-box-white:before, .section-directions-trip-renderable-summary .renderable-component-text-box-white:after, .screen-mode .section-trip-details .transit-step-description .renderable-component-text-box, .cEW58, .TUH0Sd .r4nke, .vk_ard, .vk_aru, .pChizd .DVeyrd, .YTDezd, .UsN2ld:not(.bjIqib) .a9oE3e:checked~.ITNV1, .UsN2ld:not(.bjIqib) .a9oE3e:checked~.rBrJud, :not(.mdc-deprecated-list-item--disabled).mdc-deprecated-list-item .mdc-deprecated-list-item__ripple::before, :not(.mdc-deprecated-list-item--disabled).mdc-deprecated-list-item .mdc-deprecated-list-item__ripple::after {
+    .gb_M div.gb_O, #isr_chc.OQc4Ib g-right-button, #isr_chc.OQc4Ib g-left-button, .ll0QOb, .vk-btn.vk-sf-s, .vk-btn.vk-sf-a, .vk-btn.vk-sf-a:hover, .homepage.translate-text .input-button.text-icon, .homepage.translate-docs .input-button.documents-icon, .iRxY3GoUYUY__button, .book-a-room-button:focus:not(:active), .book-a-room-button:hover:not(:active), .section-directions-trip-renderable-summary .renderable-component-text-box-white, .section-directions-trip-renderable-summary .renderable-component-text-box-white:before, .section-directions-trip-renderable-summary .renderable-component-text-box-white:after, .screen-mode .section-trip-details .transit-step-description .renderable-component-text-box, .cEW58, .TUH0Sd .r4nke, .vk_ard, .vk_aru, .pChizd .DVeyrd, .YTDezd, .UsN2ld:not(.bjIqib) .a9oE3e:checked~.ITNV1, .UsN2ld:not(.bjIqib) .a9oE3e:checked~.rBrJud, :not(.mdc-deprecated-list-item--disabled).mdc-deprecated-list-item .mdc-deprecated-list-item__ripple::before, :not(.mdc-deprecated-list-item--disabled).mdc-deprecated-list-item .mdc-deprecated-list-item__ripple::after, .WuRuJe {
         background-color: var(--mainBlue)!important; 
     }
     /*bg Red*/
@@ -346,6 +346,9 @@
     }
     .NJfJb.mr5vfb {
         box-shadow: 0 2px 4px transparent!important;
+    }
+    .u8H8Fd {
+        box-shadow: 0 1px 0 var(--mainBlue)!important;
     }
     .section-tab-bar-tab-unselected:hover, .MgQfZd:after, .czHJJ, .S5TwIf, .j0rvQ, .dwlvNd .buGMKc:hover, .dwlvNd .buGMKc:focus, .OFaVze, .a-ec-Gd .Kzazxf.x6jRSb:hover, .a-ec-Gd .Kzazxf.x6jRSb, .g-Gh {
         box-shadow: none !important;
