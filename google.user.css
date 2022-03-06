@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.39
+@version 1.0.40
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -78,7 +78,7 @@
         background-color: var(--darkC0x)!important;
     }
     /*bg0*/
-    body, #hdtbSum, #appbar, .kappbar, a.rg_l, .frame:before, .ptJHdc, .ptJHdc .v7hl4d, .gt-lc.gt-lc-mobile .gt-cc-r-i, .section-layout-root, .section-suggestions, .loading-pane, .scrollable-x::-webkit-scrollbar-track, .scrollable-y::-webkit-scrollbar-track, .widget-pane-secondary .widget-pane-content-shim, .section-info-action-icon-button, .ozj7Vb3wnYq__section-topappbar,  .Xz5tfb.aID8W, .gb_0e, .un04Ec, .vHEfie, .a-qc-La, .a-D-B, .a-ub-Gd, .a-ub-oa, .Kk7lMc-Yb-Il-j, .y-C-Ed-V, .S4EObe .exaJlc, .xWId8e, .MDfQ7, .ABd7Db, .cO53qb, .VmOpGe, .gb_qa .gb_Kd.gb_Sd.gb_Td, g-inner-card, .id-content-container, .id-scene, .mOONic-pane, .widget-scene, .widget-scene-canvas, .id-consent-bump, .N7iPof, .a-t-D, .a-t-j .a-gd-j, .a-S-dc {
+    body, #hdtbSum, #appbar, .kappbar, a.rg_l, .frame:before, .ptJHdc, .ptJHdc .v7hl4d, .gt-lc.gt-lc-mobile .gt-cc-r-i, .section-layout-root, .section-suggestions, .loading-pane, .scrollable-x::-webkit-scrollbar-track, .scrollable-y::-webkit-scrollbar-track, .widget-pane-secondary .widget-pane-content-shim, .section-info-action-icon-button, .ozj7Vb3wnYq__section-topappbar,  .Xz5tfb.aID8W, .gb_0e, .un04Ec, .vHEfie, .a-qc-La, .a-D-B, .a-ub-Gd, .a-ub-oa, .Kk7lMc-Yb-Il-j, .y-C-Ed-V, .S4EObe .exaJlc, .xWId8e, .MDfQ7, .ABd7Db, .cO53qb, .VmOpGe, .gb_qa .gb_Kd.gb_Sd.gb_Td, g-inner-card, .id-content-container, .id-scene, .mOONic-pane, .widget-scene, .widget-scene-canvas, .id-consent-bump, .N7iPof, .a-t-D, .a-t-j .a-gd-j, .a-S-dc, .dG2XIf {
         background-color: var(--darkC0)!important;
     }
     /*bg01*/
