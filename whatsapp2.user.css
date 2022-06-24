@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name Whatsapp uHide
+@namespace github.com/bluelul/Userstyle
+@homepageURL https://github.com/bluelul/Userstyle/blob/master/whatsapp2.user.css
+@version 1.0.0
+@updateURL https://github.com/bluelul/Userstyle/raw/master/whatsapp2.user.css
+@description Whatsapp Hide Theme
+@author bluelul
+@license GNU-V3.0
+@preprocessor uso
+==/UserStyle== */
+
+@-moz-document domain("web.whatsapp.com") {
+._3K4-L, ._2cYbV, ._3xTHG, ._2nY6U.vq6sj {
+    filter: blur(10px) !important;
+}
+
+._3K4-L:hover, ._2cYbV:hover, ._3xTHG:hover, ._2nY6U.vq6sj:hover {
+    filter: none !important;
+}
+}
