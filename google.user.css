@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.46
+@version 1.0.47
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -764,6 +764,7 @@
 @-moz-document regexp("(https|http)://(www).google.com.*/maps/.*@[\\d-.]*,[\\d-.]*,[\\d-.]*(z|z\\/.*)") {
 /* google map vector view */
     .widget-scene, .KqiIge-uMX1Ee {
-        filter: invert(0.85) hue-rotate(180deg) contrast(1.1) saturate(1.1) brightness(1.3)!important;
+    /* disable for dark reader */
+    /*    filter: invert(0.85) hue-rotate(180deg) contrast(1.1) saturate(1.1) brightness(1.3)!important; */
     }
 }
