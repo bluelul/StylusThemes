@@ -2,7 +2,7 @@
 @name Google uDark
 @namespace github.com/bluelul/Userstyle
 @homepageURL https://github.com/bluelul/Userstyle/blob/master/google.user.css
-@version 1.0.47
+@version 1.0.48
 @updateURL https://github.com/bluelul/Userstyle/raw/master/google.user.css
 @description Google Dark Theme
 @author bluelul
@@ -738,7 +738,7 @@
 }
 }
 
-@-moz-document regexp("(https|http)://(www).google.com.*/(?!search).*") {
+@-moz-document regexp("(https|http)://(www).google.com.*/(search).*") {
 /* exclude google search home page */
 .sfbg, div.sfbgg, .sfbgg{
     display:none!important;
@@ -749,6 +749,13 @@
 #searchform.big.jhp>#tsf {
     width: auto!important;
 }
+.zItAnd {
+    border-color: var(--darkC4) !important;
+}
+.zItAnd.FOU1zf {
+    border-color: var(--mainBlue) !important;
+}
+
 }
 
 @-moz-document regexp("(https|http)://(www).google.com.*/.*tbm=shop.*") {
